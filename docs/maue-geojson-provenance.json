@@ -1,0 +1,3121 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Cópias de visualização 2D; originais permanecem mestres. CRS84 declarado nas fontes; datum vertical não informado. Z removido apenas nas cópias para drapeamento, sem transformação vertical. Arredondamento a 7 casas pelo preparador existente. source_ref e registros abaixo preservam vínculo com fonte, índice e atributos originais.",
+  "files": [
+    {
+      "file": "curvas_3m.geojson",
+      "sourcePath": "C:\\Users\\Usuario\\Desktop\\MAUE\\webgis\\geojson\\curvas_3m.geojson",
+      "sourceSha256": "7e3ee6c54e29b4d8ca8cd769ee819ddae8c3fcc679948ebce4848ee93409604a",
+      "sourceEncoding": "utf-8",
+      "outputSha256": "e252d9e3b925d7e00514f430d0461abc08644616f7715032877725c0d28fa718",
+      "sourceCrs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+      },
+      "count": 159,
+      "maxCoordinateDeltaDegrees": 4.9999897555608186e-8,
+      "notes": [
+        "159 feições; id sequencial 1–159 e nome.",
+        "Coordenadas em 2D (Z removido), arredondadas para 7 casas.",
+        "Curvas: ELEVATION renomeado para cota_m; 31 de 159 são mestras (a cada 15 m).",
+        "nome: nenhum NAME/name na entrada; 159 com o padrão (ex.: \"Curva 948 m\")."
+      ],
+      "features": [
+        {
+          "source_ref": "curvas_3m.geojson:1",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "948 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:2",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "951 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:3",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "954 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:4",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "954 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:5",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "954 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:6",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "957 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:7",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "957 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:8",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "960 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:9",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "960 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:10",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "963 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:11",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "963 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:12",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "966 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:13",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "969 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:14",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "972 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:15",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "975 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:16",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "978 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:17",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "981 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:18",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "981 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:19",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "984 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:20",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "987 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:21",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "987 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:22",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "990 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:23",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "993 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:24",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "996 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:25",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "999 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:26",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1002 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:27",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1005 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:28",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1008 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:29",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1008 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:30",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1011 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:31",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1014 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:32",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1017 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:33",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1020 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:34",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1023 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:35",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1026 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:36",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1029 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:37",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1032 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:38",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1035 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:39",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1038 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:40",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1041 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:41",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1044 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:42",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1044 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:43",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1047 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:44",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1047 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:45",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1050 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:46",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1050 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:47",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1053 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:48",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1053 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:49",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1056 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:50",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1056 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:51",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1059 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:52",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1059 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:53",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1059 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:54",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1062 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:55",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1062 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:56",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1065 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:57",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1068 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:58",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1068 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:59",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1068 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:60",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1071 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:61",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1074 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:62",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1077 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:63",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1080 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:64",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1080 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:65",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1080 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:66",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1080 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:67",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1083 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:68",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1086 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:69",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1089 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:70",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1092 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:71",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1095 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:72",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1098 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:73",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1101 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:74",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1104 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:75",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1107 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:76",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1110 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:77",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1113 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:78",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1116 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:79",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1119 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:80",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1122 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:81",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1125 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:82",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1128 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:83",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1131 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:84",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1134 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:85",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1137 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:86",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1140 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:87",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1143 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:88",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1146 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:89",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1149 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:90",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1152 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:91",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1155 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:92",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1158 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:93",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1158 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:94",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1161 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:95",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1161 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:96",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1161 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:97",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1164 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:98",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1164 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:99",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1167 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:100",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1167 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:101",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1167 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:102",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1170 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:103",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1170 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:104",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1173 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:105",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1173 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:106",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1176 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:107",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1176 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:108",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1176 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:109",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1179 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:110",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1179 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:111",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1182 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:112",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1182 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:113",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1185 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:114",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1185 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:115",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1188 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:116",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1188 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:117",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1191 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:118",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1191 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:119",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1194 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:120",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1194 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:121",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1197 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:122",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1197 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:123",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1197 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:124",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1200 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:125",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1200 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:126",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1203 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:127",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1203 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:128",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1206 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:129",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1206 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:130",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1209 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:131",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1209 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:132",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1212 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:133",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1212 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:134",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1215 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:135",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1218 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:136",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1221 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:137",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1224 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:138",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1227 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:139",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1230 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:140",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1233 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:141",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1236 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:142",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1236 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:143",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1239 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:144",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1239 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:145",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1242 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:146",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1242 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:147",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1242 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:148",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1242 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:149",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1245 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:150",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1245 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:151",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1245 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:152",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1248 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:153",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1248 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:154",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1251 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:155",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1254 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:156",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1257 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:157",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1260 m"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:158",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1263 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_3m.geojson:159",
+          "sourceFeatureId": null,
+          "properties": {
+            "ELEVATION": "1263 m"
+          }
+        }
+      ]
+    },
+    {
+      "file": "micro_bacias.geojson",
+      "sourcePath": "C:\\Users\\Usuario\\Desktop\\MAUE\\webgis\\geojson\\micro_bacias.geojson",
+      "sourceSha256": "d980d5bb60ea02a3fdff19481f240c1c704c0f2a2691e9ceb9df1381bb5e1828",
+      "sourceEncoding": "utf-8",
+      "outputSha256": "e3d41b81657106921f0ab1032309c6544a3257146233f871dc1c455fef8acf40",
+      "sourceCrs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+      },
+      "count": 32,
+      "maxCoordinateDeltaDegrees": 4.999976965791575e-8,
+      "notes": [
+        "32 feições; id sequencial 1–32 e nome.",
+        "Coordenadas em 2D, arredondadas para 7 casas.",
+        "Microbacias: nome \"Microbacia N\", area_ha e perimetro_km numéricos; cor 0–9 sem vizinhas iguais (0: 4, 1: 4, 2: 3, 3: 3, 4: 3, 5: 3, 6: 3, 7: 3, 8: 3, 9: 3)."
+      ],
+      "features": [
+        {
+          "source_ref": "micro_bacias.geojson:1",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 1,
+            "PERIMETER": "861.94 m",
+            "ENCLOSED_AREA": "1.467 ha"
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:2",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 4,
+            "PERIMETER": "1.28 km",
+            "ENCLOSED_AREA": "1.701 ha",
+            "NEXT_STREAM_ID": 1
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:3",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 2,
+            "PERIMETER": "1.62 km",
+            "ENCLOSED_AREA": "4.701 ha",
+            "NEXT_STREAM_ID": 4
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:4",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 7,
+            "PERIMETER": "1.005 km",
+            "ENCLOSED_AREA": "2.794 ha"
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:5",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 3,
+            "PERIMETER": "2.229 km",
+            "ENCLOSED_AREA": "3.845 ha",
+            "NEXT_STREAM_ID": 4
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:6",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 5,
+            "PERIMETER": "2.416 km",
+            "ENCLOSED_AREA": "3.527 ha",
+            "NEXT_STREAM_ID": 1
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:7",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 6,
+            "PERIMETER": "1.804 km",
+            "ENCLOSED_AREA": "8.544 ha"
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:8",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 8,
+            "PERIMETER": "1.154 km",
+            "ENCLOSED_AREA": "3.758 ha"
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:9",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 9,
+            "PERIMETER": "1.044 km",
+            "ENCLOSED_AREA": "0.3802 ha",
+            "NEXT_STREAM_ID": 3
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:10",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 11,
+            "PERIMETER": "876.32 m",
+            "ENCLOSED_AREA": "2.481 ha"
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:11",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 10,
+            "PERIMETER": "2.048 km",
+            "ENCLOSED_AREA": "5.969 ha",
+            "NEXT_STREAM_ID": 3
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:12",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 12,
+            "PERIMETER": "1.401 km",
+            "ENCLOSED_AREA": "2.488 ha",
+            "NEXT_STREAM_ID": 9
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:13",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 14,
+            "PERIMETER": "2.227 km",
+            "ENCLOSED_AREA": "11.278 ha",
+            "NEXT_STREAM_ID": 10
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:14",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 13,
+            "PERIMETER": "1.019 km",
+            "ENCLOSED_AREA": "2.141 ha",
+            "NEXT_STREAM_ID": 9
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:15",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 15,
+            "PERIMETER": "1.619 km",
+            "ENCLOSED_AREA": "2.585 ha",
+            "NEXT_STREAM_ID": 10
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:16",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 16,
+            "PERIMETER": "1.081 km",
+            "ENCLOSED_AREA": "2.855 ha",
+            "NEXT_STREAM_ID": 6
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:17",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 18,
+            "PERIMETER": "1.713 km",
+            "ENCLOSED_AREA": "6.406 ha",
+            "NEXT_STREAM_ID": 15
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:18",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 17,
+            "PERIMETER": "1.235 km",
+            "ENCLOSED_AREA": "1.398 ha",
+            "NEXT_STREAM_ID": 6
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:19",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 19,
+            "PERIMETER": "1.085 km",
+            "ENCLOSED_AREA": "2.946 ha",
+            "NEXT_STREAM_ID": 15
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:20",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 20,
+            "PERIMETER": "1.099 km",
+            "ENCLOSED_AREA": "3.597 ha",
+            "NEXT_STREAM_ID": 17
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:21",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 21,
+            "PERIMETER": "207.52 m",
+            "ENCLOSED_AREA": "0.0976 ha",
+            "NEXT_STREAM_ID": 17
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:22",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 22,
+            "PERIMETER": "1.281 km",
+            "ENCLOSED_AREA": "3.324 ha",
+            "NEXT_STREAM_ID": 21
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:23",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 23,
+            "PERIMETER": "1.469 km",
+            "ENCLOSED_AREA": "2.014 ha",
+            "NEXT_STREAM_ID": 21
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:24",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 24,
+            "PERIMETER": "1.606 km",
+            "ENCLOSED_AREA": "3.24 ha",
+            "NEXT_STREAM_ID": 22
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:25",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 27,
+            "PERIMETER": "1.141 km",
+            "ENCLOSED_AREA": "0.1864 ha",
+            "NEXT_STREAM_ID": 23
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:26",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 25,
+            "PERIMETER": "1.385 km",
+            "ENCLOSED_AREA": "3.231 ha",
+            "NEXT_STREAM_ID": 22
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:27",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 30,
+            "PERIMETER": "408.88 m",
+            "ENCLOSED_AREA": "0.2871 ha"
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:28",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 26,
+            "PERIMETER": "839.85 m",
+            "ENCLOSED_AREA": "2.07 ha",
+            "NEXT_STREAM_ID": 23
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:29",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 28,
+            "PERIMETER": "909.71 m",
+            "ENCLOSED_AREA": "2.44 ha",
+            "NEXT_STREAM_ID": 27
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:30",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 29,
+            "PERIMETER": "1.508 km",
+            "ENCLOSED_AREA": "4.394 ha",
+            "NEXT_STREAM_ID": 27
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:31",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 31,
+            "PERIMETER": "931.8 m",
+            "ENCLOSED_AREA": "2.283 ha",
+            "NEXT_STREAM_ID": 30
+          }
+        },
+        {
+          "source_ref": "micro_bacias.geojson:32",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 32,
+            "PERIMETER": "0.985 km",
+            "ENCLOSED_AREA": "3.338 ha",
+            "NEXT_STREAM_ID": 30
+          }
+        }
+      ]
+    },
+    {
+      "file": "peri_sigef.geojson",
+      "sourcePath": "C:\\Users\\Usuario\\Desktop\\MAUE\\webgis\\geojson\\peri_sigef.geojson",
+      "sourceSha256": "92b4b94c0995a220a27f26aee8a29dea5ef5f572072411be6c87bb0122276b44",
+      "sourceEncoding": "windows-1252",
+      "outputSha256": "080d0057a0f80818168f6f2d9b17f23d34ad32b89b262400046f805c053cb524",
+      "sourceCrs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+      },
+      "count": 1,
+      "maxCoordinateDeltaDegrees": 4.000006370574738e-8,
+      "notes": [
+        "1 feições; id sequencial 1–1 e nome.",
+        "Coordenadas em 2D (Z removido), arredondadas para 7 casas.",
+        "PERIMETER: texto com unidade convertido para número (km).",
+        "ENCLOSED_AREA: texto com unidade convertido para número (ha).",
+        "nome: nenhum NAME/name na entrada."
+      ],
+      "features": [
+        {
+          "source_ref": "peri_sigef.geojson:1",
+          "sourceFeatureId": null,
+          "properties": {
+            "parcela_co": "ffbab405-21d7-42a5-8b2d-6e8ac0e5a308",
+            "rt": "NBSP",
+            "art": "20264949288-MG",
+            "situacao_i": "REGISTRADA",
+            "codigo_imo": "4430500043163",
+            "data_submi": "20/05/2026",
+            "data_aprov": "20/05/2026",
+            "status": "CERTIFICADA",
+            "nome_area": "SÍTIO DO BANANAL - Gleba 01",
+            "registro_m": "13649; 5167; 8178; 5168",
+            "registro_d": "00000000",
+            "municipio_": 3104908,
+            "uf_id": 31,
+            "PERIMETER": "3.667 km",
+            "ENCLOSED_AREA": "48.2 ha"
+          }
+        }
+      ]
+    },
+    {
+      "file": "ramas.geojson",
+      "sourcePath": "C:\\Users\\Usuario\\Desktop\\MAUE\\webgis\\geojson\\ramas.geojson",
+      "sourceSha256": "d43f2fc79b35e481e58ebf0bfa89106bad05bfca4f223ffd40a383a2efe66103",
+      "sourceEncoding": "utf-8",
+      "outputSha256": "2b023da9aa19dd70d48c6a14eefdc93ab40462e971d9bd640a9ceb3e4e3697cc",
+      "sourceCrs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+      },
+      "count": 12,
+      "maxCoordinateDeltaDegrees": 4.9993651884960855e-8,
+      "notes": [
+        "12 feições; id sequencial 1–12 e nome.",
+        "Coordenadas em 2D (Z removido), arredondadas para 7 casas.",
+        "PERIMETER: texto com unidade convertido para número (m).",
+        "ENCLOSED_AREA: texto com unidade convertido para número (ha).",
+        "SURFACE_AREA_3D: texto com unidade convertido para número (ha).",
+        "nome: nenhum NAME/name na entrada."
+      ],
+      "features": [
+        {
+          "source_ref": "ramas.geojson:1",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 1,
+            "Name": "Rama 1",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3004.661752522864845",
+            "PERIMETER": "211.53 m",
+            "ENCLOSED_AREA": "0.2989 ha",
+            "MIN_ELEV_M": "1046.0413",
+            "MIN_ELEV_X": "520183.133",
+            "MIN_ELEV_Y": "7563272.307",
+            "MAX_ELEV_M": "1061.764",
+            "MAX_ELEV_X": "520239.389",
+            "MAX_ELEV_Y": "7563261.743",
+            "AVG_ELEV_M": "1053.4231",
+            "MODE_ELEV_M": "1051.5",
+            "STD_DEV_ELEV_M": "4.102838",
+            "MAX_SLOPE_DEG": "22.77",
+            "MAX_SLOPE_PCT": "41.98",
+            "AVG_SLOPE_DEG": "14.97",
+            "AVG_SLOPE_PCT": "26.73",
+            "SURFACE_AREA_3D": "0.31 ha",
+            "STD_DEV_SLOPE_DEG": "3.42",
+            "STD_DEV_SLOPE_PCT": "5.97",
+            "SLOPE_1QUAR_DEG": "12.10",
+            "SLOPE_1QUAR_PCT": "21.44",
+            "SLOPE_MEDIAN_DEG": "14.80",
+            "SLOPE_MEDIAN_PCT": "26.42",
+            "SLOPE_3QUAR_DEG": "17.80",
+            "SLOPE_3QUAR_PCT": "32.11",
+            "ASPECT": "W (264°)",
+            "AVG_ASPECT": "W (264°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:2",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 2,
+            "Name": "Rama 2",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3078.936438059434295",
+            "PERIMETER": "275.42 m",
+            "ENCLOSED_AREA": "0.3557 ha",
+            "MIN_ELEV_M": "1026.4155",
+            "MIN_ELEV_X": "520105.585",
+            "MIN_ELEV_Y": "7563378.057",
+            "MAX_ELEV_M": "1049.5385",
+            "MAX_ELEV_X": "520200.223",
+            "MAX_ELEV_Y": "7563344.374",
+            "AVG_ELEV_M": "1037.9374",
+            "MODE_ELEV_M": "1040",
+            "STD_DEV_ELEV_M": "5.385302",
+            "MAX_SLOPE_DEG": "21.56",
+            "MAX_SLOPE_PCT": "39.52",
+            "AVG_SLOPE_DEG": "14.80",
+            "AVG_SLOPE_PCT": "26.42",
+            "SURFACE_AREA_3D": "0.3684 ha",
+            "STD_DEV_SLOPE_DEG": "2.98",
+            "STD_DEV_SLOPE_PCT": "5.21",
+            "SLOPE_1QUAR_DEG": "14.06",
+            "SLOPE_1QUAR_PCT": "25.04",
+            "SLOPE_MEDIAN_DEG": "15.27",
+            "SLOPE_MEDIAN_PCT": "27.29",
+            "SLOPE_3QUAR_DEG": "16.46",
+            "SLOPE_3QUAR_PCT": "29.55",
+            "ASPECT": "NW (315°)",
+            "AVG_ASPECT": "NW (314°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:3",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 3,
+            "Name": "Rama 3",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3050.083997460082173",
+            "PERIMETER": "233.83 m",
+            "ENCLOSED_AREA": "0.3048 ha",
+            "MIN_ELEV_M": "1052.4417",
+            "MIN_ELEV_X": "520337.293",
+            "MIN_ELEV_Y": "7563386.202",
+            "MAX_ELEV_M": "1068.2922",
+            "MAX_ELEV_X": "520358.654",
+            "MAX_ELEV_Y": "7563335.952",
+            "AVG_ELEV_M": "1059.1912",
+            "MODE_ELEV_M": "1061.9",
+            "STD_DEV_ELEV_M": "3.891374",
+            "MAX_SLOPE_DEG": "22.96",
+            "MAX_SLOPE_PCT": "42.36",
+            "AVG_SLOPE_DEG": "15.56",
+            "AVG_SLOPE_PCT": "27.85",
+            "SURFACE_AREA_3D": "0.3169 ha",
+            "STD_DEV_SLOPE_DEG": "3.07",
+            "STD_DEV_SLOPE_PCT": "5.37",
+            "SLOPE_1QUAR_DEG": "13.50",
+            "SLOPE_1QUAR_PCT": "24.02",
+            "SLOPE_MEDIAN_DEG": "16.25",
+            "SLOPE_MEDIAN_PCT": "29.15",
+            "SLOPE_3QUAR_DEG": "17.43",
+            "SLOPE_3QUAR_PCT": "31.39",
+            "ASPECT": "N (349°)",
+            "AVG_ASPECT": "N (345°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:4",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 4,
+            "Name": "Rama 4",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3922.230347346514463",
+            "PERIMETER": "229.31 m",
+            "ENCLOSED_AREA": "0.2819 ha",
+            "MIN_ELEV_M": "1060.8722",
+            "MIN_ELEV_X": "520246.769",
+            "MIN_ELEV_Y": "7563308.265",
+            "MAX_ELEV_M": "1073.4884",
+            "MAX_ELEV_X": "520299.177",
+            "MAX_ELEV_Y": "7563265.225",
+            "AVG_ELEV_M": "1066.9998",
+            "MODE_ELEV_M": "1064.5",
+            "STD_DEV_ELEV_M": "2.762840",
+            "MAX_SLOPE_DEG": "21.29",
+            "MAX_SLOPE_PCT": "38.96",
+            "AVG_SLOPE_DEG": "11.54",
+            "AVG_SLOPE_PCT": "20.42",
+            "SURFACE_AREA_3D": "0.288 ha",
+            "STD_DEV_SLOPE_DEG": "2.36",
+            "STD_DEV_SLOPE_PCT": "4.11",
+            "SLOPE_1QUAR_DEG": "10.40",
+            "SLOPE_1QUAR_PCT": "18.35",
+            "SLOPE_MEDIAN_DEG": "11.15",
+            "SLOPE_MEDIAN_PCT": "19.71",
+            "SLOPE_3QUAR_DEG": "12.26",
+            "SLOPE_3QUAR_PCT": "21.73",
+            "ASPECT": "NW (326°)",
+            "AVG_ASPECT": "NW (330°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:5",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 5,
+            "Name": "Rama 5",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3009.270697768777609",
+            "PERIMETER": "255.34 m",
+            "ENCLOSED_AREA": "0.3017 ha",
+            "MIN_ELEV_M": "1065.4821",
+            "MIN_ELEV_X": "520320.576",
+            "MIN_ELEV_Y": "7563327.687",
+            "MAX_ELEV_M": "1083.275",
+            "MAX_ELEV_X": "520406.999",
+            "MAX_ELEV_Y": "7563285.565",
+            "AVG_ELEV_M": "1075.3993",
+            "MODE_ELEV_M": "1074.6",
+            "STD_DEV_ELEV_M": "4.271034",
+            "MAX_SLOPE_DEG": "18.31",
+            "MAX_SLOPE_PCT": "33.09",
+            "AVG_SLOPE_DEG": "13.92",
+            "AVG_SLOPE_PCT": "24.79",
+            "SURFACE_AREA_3D": "0.3109 ha",
+            "STD_DEV_SLOPE_DEG": "1.40",
+            "STD_DEV_SLOPE_PCT": "2.44",
+            "SLOPE_1QUAR_DEG": "13.05",
+            "SLOPE_1QUAR_PCT": "23.17",
+            "SLOPE_MEDIAN_DEG": "14.05",
+            "SLOPE_MEDIAN_PCT": "25.03",
+            "SLOPE_3QUAR_DEG": "14.85",
+            "SLOPE_3QUAR_PCT": "26.51",
+            "ASPECT": "N (343°)",
+            "AVG_ASPECT": "N (340°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:6",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 6,
+            "Name": "Rama 6",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3087.947939207311720",
+            "PERIMETER": "264.39 m",
+            "ENCLOSED_AREA": "0.3082 ha",
+            "MIN_ELEV_M": "1071.3748",
+            "MIN_ELEV_X": "520421.706",
+            "MIN_ELEV_Y": "7563332.339",
+            "MAX_ELEV_M": "1086.0961",
+            "MAX_ELEV_X": "520490.319",
+            "MAX_ELEV_Y": "7563284.882",
+            "AVG_ELEV_M": "1080.3547",
+            "MODE_ELEV_M": "1080.9",
+            "STD_DEV_ELEV_M": "3.194881",
+            "MAX_SLOPE_DEG": "25.06",
+            "MAX_SLOPE_PCT": "46.77",
+            "AVG_SLOPE_DEG": "16.32",
+            "AVG_SLOPE_PCT": "29.27",
+            "SURFACE_AREA_3D": "0.3214 ha",
+            "STD_DEV_SLOPE_DEG": "2.11",
+            "STD_DEV_SLOPE_PCT": "3.69",
+            "SLOPE_1QUAR_DEG": "14.79",
+            "SLOPE_1QUAR_PCT": "26.40",
+            "SLOPE_MEDIAN_DEG": "15.62",
+            "SLOPE_MEDIAN_PCT": "27.96",
+            "SLOPE_3QUAR_DEG": "17.32",
+            "SLOPE_3QUAR_PCT": "31.18",
+            "ASPECT": "N (0°)",
+            "AVG_ASPECT": "N (359°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:7",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 7,
+            "Name": "Rama 7",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3027.674417227506638",
+            "PERIMETER": "232.28 m",
+            "ENCLOSED_AREA": "0.2888 ha",
+            "MIN_ELEV_M": "1077.9448",
+            "MIN_ELEV_X": "520524.462",
+            "MIN_ELEV_Y": "7563310.596",
+            "MAX_ELEV_M": "1094.7162",
+            "MAX_ELEV_X": "520554.563",
+            "MAX_ELEV_Y": "7563242.115",
+            "AVG_ELEV_M": "1087.8083",
+            "MODE_ELEV_M": "1093.8",
+            "STD_DEV_ELEV_M": "4.199522",
+            "MAX_SLOPE_DEG": "21.55",
+            "MAX_SLOPE_PCT": "39.50",
+            "AVG_SLOPE_DEG": "14.22",
+            "AVG_SLOPE_PCT": "25.33",
+            "SURFACE_AREA_3D": "0.298 ha",
+            "STD_DEV_SLOPE_DEG": "1.44",
+            "STD_DEV_SLOPE_PCT": "2.52",
+            "SLOPE_1QUAR_DEG": "13.45",
+            "SLOPE_1QUAR_PCT": "23.91",
+            "SLOPE_MEDIAN_DEG": "14.17",
+            "SLOPE_MEDIAN_PCT": "25.25",
+            "SLOPE_3QUAR_DEG": "14.91",
+            "SLOPE_3QUAR_PCT": "26.62",
+            "ASPECT": "N (11°)",
+            "AVG_ASPECT": "N (8°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:8",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 8,
+            "Name": "Rama 8",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "2999.072808053344488",
+            "PERIMETER": "250.85 m",
+            "ENCLOSED_AREA": "0.2998 ha",
+            "MIN_ELEV_M": "1082.9705",
+            "MIN_ELEV_X": "520393.112",
+            "MIN_ELEV_Y": "7563281.485",
+            "MAX_ELEV_M": "1094.2328",
+            "MAX_ELEV_X": "520469.689",
+            "MAX_ELEV_Y": "7563253.983",
+            "AVG_ELEV_M": "1088.6014",
+            "MODE_ELEV_M": "1086.7",
+            "STD_DEV_ELEV_M": "2.723317",
+            "MAX_SLOPE_DEG": "16.84",
+            "MAX_SLOPE_PCT": "30.26",
+            "AVG_SLOPE_DEG": "13.87",
+            "AVG_SLOPE_PCT": "24.69",
+            "SURFACE_AREA_3D": "0.3088 ha",
+            "STD_DEV_SLOPE_DEG": "1.08",
+            "STD_DEV_SLOPE_PCT": "1.88",
+            "SLOPE_1QUAR_DEG": "13.42",
+            "SLOPE_1QUAR_PCT": "23.86",
+            "SLOPE_MEDIAN_DEG": "13.97",
+            "SLOPE_MEDIAN_PCT": "24.87",
+            "SLOPE_3QUAR_DEG": "14.55",
+            "SLOPE_3QUAR_PCT": "25.95",
+            "ASPECT": "N (349°)",
+            "AVG_ASPECT": "N (351°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:9",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 9,
+            "Name": "Rama 9",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3002.122070584446192",
+            "PERIMETER": "213.36 m",
+            "ENCLOSED_AREA": "0.2899 ha",
+            "MIN_ELEV_M": "1077.2133",
+            "MIN_ELEV_X": "520357.097",
+            "MIN_ELEV_Y": "7563293.732",
+            "MAX_ELEV_M": "1093.6754",
+            "MAX_ELEV_X": "520375.644",
+            "MAX_ELEV_Y": "7563217.969",
+            "AVG_ELEV_M": "1086.239",
+            "MODE_ELEV_M": "1085.6",
+            "STD_DEV_ELEV_M": "3.598319",
+            "MAX_SLOPE_DEG": "17.86",
+            "MAX_SLOPE_PCT": "32.23",
+            "AVG_SLOPE_DEG": "13.00",
+            "AVG_SLOPE_PCT": "23.09",
+            "SURFACE_AREA_3D": "0.2976 ha",
+            "STD_DEV_SLOPE_DEG": "1.41",
+            "STD_DEV_SLOPE_PCT": "2.47",
+            "SLOPE_1QUAR_DEG": "11.95",
+            "SLOPE_1QUAR_PCT": "21.17",
+            "SLOPE_MEDIAN_DEG": "12.83",
+            "SLOPE_MEDIAN_PCT": "22.78",
+            "SLOPE_3QUAR_DEG": "14.04",
+            "SLOPE_3QUAR_PCT": "25.01",
+            "ASPECT": "NW (326°)",
+            "AVG_ASPECT": "NW (328°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:10",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 10,
+            "Name": "Rama 10",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "2999.118126749992371",
+            "PERIMETER": "219.42 m",
+            "ENCLOSED_AREA": "0.2983 ha",
+            "MIN_ELEV_M": "1089.8673",
+            "MIN_ELEV_X": "520402.477",
+            "MIN_ELEV_Y": "7563252.637",
+            "MAX_ELEV_M": "1108.5109",
+            "MAX_ELEV_X": "520450.772",
+            "MAX_ELEV_Y": "7563190.963",
+            "AVG_ELEV_M": "1098.0454",
+            "MODE_ELEV_M": "1093.9",
+            "STD_DEV_ELEV_M": "4.101074",
+            "MAX_SLOPE_DEG": "21.13",
+            "MAX_SLOPE_PCT": "38.65",
+            "AVG_SLOPE_DEG": "12.93",
+            "AVG_SLOPE_PCT": "22.96",
+            "SURFACE_AREA_3D": "0.3062 ha",
+            "STD_DEV_SLOPE_DEG": "1.66",
+            "STD_DEV_SLOPE_PCT": "2.89",
+            "SLOPE_1QUAR_DEG": "11.90",
+            "SLOPE_1QUAR_PCT": "21.08",
+            "SLOPE_MEDIAN_DEG": "12.72",
+            "SLOPE_MEDIAN_PCT": "22.57",
+            "SLOPE_3QUAR_DEG": "13.76",
+            "SLOPE_3QUAR_PCT": "24.50",
+            "ASPECT": "NW (332°)",
+            "AVG_ASPECT": "NW (328°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:11",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 11,
+            "Name": "Rama 11",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "",
+            "end": "",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "3003.189801350235939",
+            "PERIMETER": "221.18 m",
+            "ENCLOSED_AREA": "0.3014 ha",
+            "MIN_ELEV_M": "1092.7263",
+            "MIN_ELEV_X": "520430.984",
+            "MIN_ELEV_Y": "7563250.140",
+            "MAX_ELEV_M": "1109.8934",
+            "MAX_ELEV_X": "520495.175",
+            "MAX_ELEV_Y": "7563197.562",
+            "AVG_ELEV_M": "1101.7975",
+            "MODE_ELEV_M": "1095.9",
+            "STD_DEV_ELEV_M": "4.353479",
+            "MAX_SLOPE_DEG": "20.30",
+            "MAX_SLOPE_PCT": "36.99",
+            "AVG_SLOPE_DEG": "14.79",
+            "AVG_SLOPE_PCT": "26.40",
+            "SURFACE_AREA_3D": "0.3118 ha",
+            "STD_DEV_SLOPE_DEG": "1.10",
+            "STD_DEV_SLOPE_PCT": "1.92",
+            "SLOPE_1QUAR_DEG": "14.17",
+            "SLOPE_1QUAR_PCT": "25.25",
+            "SLOPE_MEDIAN_DEG": "14.73",
+            "SLOPE_MEDIAN_PCT": "26.30",
+            "SLOPE_3QUAR_DEG": "15.34",
+            "SLOPE_3QUAR_PCT": "27.43",
+            "ASPECT": "N (349°)",
+            "AVG_ASPECT": "N (350°)"
+          }
+        },
+        {
+          "source_ref": "ramas.geojson:12",
+          "sourceFeatureId": null,
+          "properties": {
+            "fid": 12,
+            "Name": "Rama 12",
+            "descriptio": "",
+            "timestamp": "",
+            "begin": "2025/07/22 01:36:50.388",
+            "end": "2025/07/22 01:36:54.159",
+            "altitudeMo": "",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": "",
+            "icon": "",
+            "area": "2996.441255322657526",
+            "PERIMETER": "228.44 m",
+            "ENCLOSED_AREA": "0.3004 ha",
+            "MIN_ELEV_M": "1095.1989",
+            "MIN_ELEV_X": "520518.899",
+            "MIN_ELEV_Y": "7563243.429",
+            "MAX_ELEV_M": "1110.0386",
+            "MAX_ELEV_X": "520502.979",
+            "MAX_ELEV_Y": "7563198.035",
+            "AVG_ELEV_M": "1102.6366",
+            "MODE_ELEV_M": "1107.4",
+            "STD_DEV_ELEV_M": "4.261501",
+            "MAX_SLOPE_DEG": "24.75",
+            "MAX_SLOPE_PCT": "46.10",
+            "AVG_SLOPE_DEG": "18.81",
+            "AVG_SLOPE_PCT": "34.06",
+            "SURFACE_AREA_3D": "0.3175 ha",
+            "STD_DEV_SLOPE_DEG": "1.73",
+            "STD_DEV_SLOPE_PCT": "3.02",
+            "SLOPE_1QUAR_DEG": "17.53",
+            "SLOPE_1QUAR_PCT": "31.59",
+            "SLOPE_MEDIAN_DEG": "18.57",
+            "SLOPE_MEDIAN_PCT": "33.60",
+            "SLOPE_3QUAR_DEG": "20.20",
+            "SLOPE_3QUAR_PCT": "36.80",
+            "ASPECT": "N (0°)",
+            "AVG_ASPECT": "N (3°)"
+          }
+        }
+      ]
+    },
+    {
+      "file": "rede_drenagem.geojson",
+      "sourcePath": "C:\\Users\\Usuario\\Desktop\\MAUE\\webgis\\geojson\\rede_drenagem.geojson",
+      "sourceSha256": "563842fa920bac42333571a912c172bb38fb89f73da91efb08276961d9f40801",
+      "sourceEncoding": "utf-8",
+      "outputSha256": "769b8846e5b6b6f202980c051b18b2f428e18deade69c6a4d7707f9348c39488",
+      "sourceCrs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+      },
+      "count": 91,
+      "maxCoordinateDeltaDegrees": 4.999792935223013e-8,
+      "notes": [
+        "91 feições; id sequencial 1–91 e nome.",
+        "Coordenadas em 2D (Z removido), arredondadas para 7 casas.",
+        "Drenagem: STRAHLER da entrada mantido em 91 trechos (ordens 1: 51, 2: 21, 3: 12, 4: 7); topologia não recalculada.",
+        "DRAIN_AREA: texto com unidade convertido para número (ha).",
+        "nome: nenhum NAME/name na entrada; 91 com o padrão (ex.: \"Trecho 1\")."
+      ],
+      "features": [
+        {
+          "source_ref": "rede_drenagem.geojson:1",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 1,
+            "IN_FLOW": 7240255,
+            "OUT_FLOW": 7461629,
+            "DRAIN_AREA": "49.181 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:2",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 2,
+            "IN_FLOW": 268936,
+            "OUT_FLOW": 709571,
+            "DRAIN_AREA": "4.677 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:3",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 3,
+            "IN_FLOW": 5161192,
+            "OUT_FLOW": 5741506,
+            "DRAIN_AREA": "37.844 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:4",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 4,
+            "IN_FLOW": 6451082,
+            "OUT_FLOW": 6469835,
+            "DRAIN_AREA": "42.644 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:5",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 6,
+            "IN_FLOW": 6697085,
+            "OUT_FLOW": 6707865,
+            "DRAIN_AREA": "44.213 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:6",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 7,
+            "IN_FLOW": 288455,
+            "OUT_FLOW": 532387,
+            "DRAIN_AREA": "3.509 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:7",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 8,
+            "IN_FLOW": 136737,
+            "OUT_FLOW": 227244,
+            "DRAIN_AREA": "1.498 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:8",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 9,
+            "IN_FLOW": 111173,
+            "OUT_FLOW": 256417,
+            "DRAIN_AREA": "1.69 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:9",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 10,
+            "IN_FLOW": 5616075,
+            "OUT_FLOW": 5643806,
+            "DRAIN_AREA": "37.2 ha",
+            "STRAHLER": 4
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:10",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 11,
+            "IN_FLOW": 180582,
+            "OUT_FLOW": 421785,
+            "DRAIN_AREA": "2.78 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:11",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 12,
+            "IN_FLOW": 108739,
+            "OUT_FLOW": 126185,
+            "DRAIN_AREA": "0.832 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:12",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 13,
+            "IN_FLOW": 132036,
+            "OUT_FLOW": 142748,
+            "DRAIN_AREA": "0.941 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:13",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 14,
+            "IN_FLOW": 106084,
+            "OUT_FLOW": 115744,
+            "DRAIN_AREA": "0.763 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:14",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 15,
+            "IN_FLOW": 276742,
+            "OUT_FLOW": 567268,
+            "DRAIN_AREA": "3.739 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:15",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 16,
+            "IN_FLOW": 102977,
+            "OUT_FLOW": 132357,
+            "DRAIN_AREA": "0.872 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:16",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 17,
+            "IN_FLOW": 5247234,
+            "OUT_FLOW": 5483714,
+            "DRAIN_AREA": "36.144 ha",
+            "STRAHLER": 4
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:17",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 18,
+            "IN_FLOW": 698820,
+            "OUT_FLOW": 756206,
+            "DRAIN_AREA": "4.984 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:18",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 19,
+            "IN_FLOW": 5000586,
+            "OUT_FLOW": 5131358,
+            "DRAIN_AREA": "33.822 ha",
+            "STRAHLER": 4
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:19",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 20,
+            "IN_FLOW": 4074308,
+            "OUT_FLOW": 4404978,
+            "DRAIN_AREA": "29.034 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:20",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 21,
+            "IN_FLOW": 115871,
+            "OUT_FLOW": 115871,
+            "DRAIN_AREA": "0.764 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:21",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 22,
+            "IN_FLOW": 100157,
+            "OUT_FLOW": 374530,
+            "DRAIN_AREA": "2.469 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:22",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 23,
+            "IN_FLOW": 108578,
+            "OUT_FLOW": 375609,
+            "DRAIN_AREA": "2.476 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:23",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 24,
+            "IN_FLOW": 100613,
+            "OUT_FLOW": 323208,
+            "DRAIN_AREA": "2.13 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:24",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 25,
+            "IN_FLOW": 107020,
+            "OUT_FLOW": 190762,
+            "DRAIN_AREA": "1.257 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:25",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 26,
+            "IN_FLOW": 4798287,
+            "OUT_FLOW": 4808301,
+            "DRAIN_AREA": "31.693 ha",
+            "STRAHLER": 4
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:26",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 27,
+            "IN_FLOW": 119986,
+            "OUT_FLOW": 120004,
+            "DRAIN_AREA": "0.791 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:27",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 28,
+            "IN_FLOW": 4354235,
+            "OUT_FLOW": 4678277,
+            "DRAIN_AREA": "30.836 ha",
+            "STRAHLER": 4
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:28",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 29,
+            "IN_FLOW": 106032,
+            "OUT_FLOW": 162468,
+            "DRAIN_AREA": "1.071 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:29",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 30,
+            "IN_FLOW": 3783259,
+            "OUT_FLOW": 3911837,
+            "DRAIN_AREA": "25.784 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:30",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 31,
+            "IN_FLOW": 109048,
+            "OUT_FLOW": 149680,
+            "DRAIN_AREA": "0.987 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:31",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 32,
+            "IN_FLOW": 101224,
+            "OUT_FLOW": 127058,
+            "DRAIN_AREA": "0.837 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:32",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 33,
+            "IN_FLOW": 3656030,
+            "OUT_FLOW": 3656959,
+            "DRAIN_AREA": "24.104 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:33",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 34,
+            "IN_FLOW": 3503964,
+            "OUT_FLOW": 3508211,
+            "DRAIN_AREA": "23.123 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:34",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 35,
+            "IN_FLOW": 100127,
+            "OUT_FLOW": 146402,
+            "DRAIN_AREA": "0.965 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:35",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 36,
+            "IN_FLOW": 126110,
+            "OUT_FLOW": 126297,
+            "DRAIN_AREA": "0.832 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:36",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 37,
+            "IN_FLOW": 1322683,
+            "OUT_FLOW": 1702250,
+            "DRAIN_AREA": "11.22 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:37",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 38,
+            "IN_FLOW": 1735702,
+            "OUT_FLOW": 1801709,
+            "DRAIN_AREA": "11.875 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:38",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 39,
+            "IN_FLOW": 110989,
+            "OUT_FLOW": 139526,
+            "DRAIN_AREA": "0.92 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:39",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 40,
+            "IN_FLOW": 147119,
+            "OUT_FLOW": 148924,
+            "DRAIN_AREA": "0.982 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:40",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 41,
+            "IN_FLOW": 1105928,
+            "OUT_FLOW": 1121142,
+            "DRAIN_AREA": "7.39 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:41",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 42,
+            "IN_FLOW": 109519,
+            "OUT_FLOW": 201536,
+            "DRAIN_AREA": "1.328 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:42",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 43,
+            "IN_FLOW": 170163,
+            "OUT_FLOW": 201869,
+            "DRAIN_AREA": "1.331 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:43",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 44,
+            "IN_FLOW": 1411608,
+            "OUT_FLOW": 1533830,
+            "DRAIN_AREA": "10.11 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:44",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 45,
+            "IN_FLOW": 724180,
+            "OUT_FLOW": 815440,
+            "DRAIN_AREA": "5.375 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:45",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 46,
+            "IN_FLOW": 149814,
+            "OUT_FLOW": 290484,
+            "DRAIN_AREA": "1.915 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:46",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 47,
+            "IN_FLOW": 418229,
+            "OUT_FLOW": 430920,
+            "DRAIN_AREA": "2.84 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:47",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 48,
+            "IN_FLOW": 3712329,
+            "OUT_FLOW": 3923308,
+            "DRAIN_AREA": "25.859 ha",
+            "STRAHLER": 4
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:48",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 49,
+            "IN_FLOW": 402448,
+            "OUT_FLOW": 602698,
+            "DRAIN_AREA": "3.973 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:49",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 50,
+            "IN_FLOW": 101313,
+            "OUT_FLOW": 121476,
+            "DRAIN_AREA": "0.801 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:50",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 51,
+            "IN_FLOW": 291789,
+            "OUT_FLOW": 291804,
+            "DRAIN_AREA": "1.923 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:51",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 52,
+            "IN_FLOW": 100956,
+            "OUT_FLOW": 126422,
+            "DRAIN_AREA": "0.833 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:52",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 53,
+            "IN_FLOW": 118410,
+            "OUT_FLOW": 118491,
+            "DRAIN_AREA": "0.781 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:53",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 54,
+            "IN_FLOW": 105884,
+            "OUT_FLOW": 173288,
+            "DRAIN_AREA": "1.142 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:54",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 55,
+            "IN_FLOW": 299555,
+            "OUT_FLOW": 302014,
+            "DRAIN_AREA": "1.991 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:55",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 56,
+            "IN_FLOW": 100007,
+            "OUT_FLOW": 100412,
+            "DRAIN_AREA": "0.662 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:56",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 57,
+            "IN_FLOW": 125665,
+            "OUT_FLOW": 164633,
+            "DRAIN_AREA": "1.085 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:57",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 58,
+            "IN_FLOW": 133648,
+            "OUT_FLOW": 134913,
+            "DRAIN_AREA": "0.889 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:58",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 59,
+            "IN_FLOW": 643573,
+            "OUT_FLOW": 966941,
+            "DRAIN_AREA": "6.373 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:59",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 60,
+            "IN_FLOW": 120233,
+            "OUT_FLOW": 444661,
+            "DRAIN_AREA": "2.931 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:60",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 61,
+            "IN_FLOW": 518204,
+            "OUT_FLOW": 542972,
+            "DRAIN_AREA": "3.579 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:61",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 62,
+            "IN_FLOW": 3154633,
+            "OUT_FLOW": 3169353,
+            "DRAIN_AREA": "20.89 ha",
+            "STRAHLER": 4
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:62",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 63,
+            "IN_FLOW": 1363266,
+            "OUT_FLOW": 1478498,
+            "DRAIN_AREA": "9.745 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:63",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 64,
+            "IN_FLOW": 110883,
+            "OUT_FLOW": 380448,
+            "DRAIN_AREA": "2.508 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:64",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 65,
+            "IN_FLOW": 124103,
+            "OUT_FLOW": 137753,
+            "DRAIN_AREA": "0.908 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:65",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 66,
+            "IN_FLOW": 1372089,
+            "OUT_FLOW": 1676128,
+            "DRAIN_AREA": "11.048 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:66",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 67,
+            "IN_FLOW": 134657,
+            "OUT_FLOW": 165490,
+            "DRAIN_AREA": "1.091 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:67",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 68,
+            "IN_FLOW": 976741,
+            "OUT_FLOW": 1197770,
+            "DRAIN_AREA": "7.895 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:68",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 69,
+            "IN_FLOW": 100439,
+            "OUT_FLOW": 141004,
+            "DRAIN_AREA": "0.929 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:69",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 70,
+            "IN_FLOW": 100522,
+            "OUT_FLOW": 102405,
+            "DRAIN_AREA": "0.675 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:70",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 71,
+            "IN_FLOW": 488947,
+            "OUT_FLOW": 488976,
+            "DRAIN_AREA": "3.223 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:71",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 72,
+            "IN_FLOW": 463209,
+            "OUT_FLOW": 487759,
+            "DRAIN_AREA": "3.215 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:72",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 73,
+            "IN_FLOW": 101696,
+            "OUT_FLOW": 103281,
+            "DRAIN_AREA": "0.681 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:73",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 74,
+            "IN_FLOW": 109653,
+            "OUT_FLOW": 385661,
+            "DRAIN_AREA": "2.542 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:74",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 75,
+            "IN_FLOW": 110999,
+            "OUT_FLOW": 474477,
+            "DRAIN_AREA": "3.127 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:75",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 76,
+            "IN_FLOW": 115913,
+            "OUT_FLOW": 169092,
+            "DRAIN_AREA": "1.115 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:76",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 77,
+            "IN_FLOW": 104243,
+            "OUT_FLOW": 212739,
+            "DRAIN_AREA": "1.402 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:77",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 78,
+            "IN_FLOW": 100806,
+            "OUT_FLOW": 250466,
+            "DRAIN_AREA": "1.651 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:78",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 79,
+            "IN_FLOW": 129878,
+            "OUT_FLOW": 281924,
+            "DRAIN_AREA": "1.858 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:79",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 80,
+            "IN_FLOW": 312392,
+            "OUT_FLOW": 312501,
+            "DRAIN_AREA": "2.06 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:80",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 81,
+            "IN_FLOW": 1031456,
+            "OUT_FLOW": 1059583,
+            "DRAIN_AREA": "6.984 ha",
+            "STRAHLER": 3
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:81",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 82,
+            "IN_FLOW": 102203,
+            "OUT_FLOW": 190530,
+            "DRAIN_AREA": "1.256 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:82",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 83,
+            "IN_FLOW": 110958,
+            "OUT_FLOW": 121858,
+            "DRAIN_AREA": "0.803 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:83",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 84,
+            "IN_FLOW": 316593,
+            "OUT_FLOW": 368226,
+            "DRAIN_AREA": "2.427 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:84",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 85,
+            "IN_FLOW": 398055,
+            "OUT_FLOW": 663224,
+            "DRAIN_AREA": "4.371 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:85",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 86,
+            "IN_FLOW": 100361,
+            "OUT_FLOW": 104508,
+            "DRAIN_AREA": "0.689 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:86",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 87,
+            "IN_FLOW": 122294,
+            "OUT_FLOW": 212080,
+            "DRAIN_AREA": "1.398 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:87",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 89,
+            "IN_FLOW": 148987,
+            "OUT_FLOW": 214642,
+            "DRAIN_AREA": "1.415 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:88",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 90,
+            "IN_FLOW": 145835,
+            "OUT_FLOW": 183409,
+            "DRAIN_AREA": "1.209 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:89",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 93,
+            "IN_FLOW": 103484,
+            "OUT_FLOW": 344626,
+            "DRAIN_AREA": "2.272 ha",
+            "STRAHLER": 1
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:90",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 94,
+            "IN_FLOW": 848408,
+            "OUT_FLOW": 891729,
+            "DRAIN_AREA": "5.878 ha",
+            "STRAHLER": 2
+          }
+        },
+        {
+          "source_ref": "rede_drenagem.geojson:91",
+          "sourceFeatureId": null,
+          "properties": {
+            "STREAM_ID": 95,
+            "IN_FLOW": 105006,
+            "OUT_FLOW": 503773,
+            "DRAIN_AREA": "3.32 ha",
+            "STRAHLER": 1
+          }
+        }
+      ]
+    }
+  ]
+}

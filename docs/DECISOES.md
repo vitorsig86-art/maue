@@ -75,3 +75,12 @@ Use uma entrada apenas quando houver decisão relevante nos temas definidos no A
     - hook recusando o commit: termina com erro;
     - aborta antes do `git init` com divergência real da cópia, frontmatter inválido, link ou fonte vazia.
   - **Não verificados:** colisão de maiúsculas e minúsculas (o NTFS não permite criá-la), checkout em outra máquina e caminhos não ASCII dentro das skills no `new-project.ps1` (o PowerShell 5.1 decodifica a saída do Git pela página de código do console; as skills atuais só têm nomes ASCII). Pendente, em tarefa separada por haver alterações preexistentes em `package.json`: incluir `node scripts/sync-skills.cjs --check` no `npm run check`. Retorno seguro: `git restore -- scripts/new-project.ps1 AGENTS.md docs/CESIUM_VECTOR_TILES_2026.md docs/DECISOES.md` e remoção de `scripts/sync-skills.cjs`, mediante autorização; `.claude/skills` não tem diff a desfazer.
+
+
+## 2026-11-16 — Vetores do Maue
+
+- **Estado:** configurados no projeto derivado, sem commit ou publicação.
+- **Decisão:** servir cinco cópias de visualização em public/geojson, sem dependência de upload ao R2. Reutilizados o preparador e os carregadores existentes; sem alteração de Cesium ou código genérico. Somente Bing e ortofoto ligados na abertura.
+- **Origem e transformações:** arquivos mestres em C:/Users/Usuario/Desktop/MAUE/webgis/geojson, intactos. Hashes, contagens, atributos originais e mapeamento por source_ref em docs/maue-geojson-provenance.json. Fontes declaram CRS84 (longitude/latitude). Perímetro SIGEF decodificado de Windows-1252 para UTF-8; demais fontes UTF-8. Preparador aplica coordenadas 2D com 7 casas, conversão de unidades, cotas das curvas, classificação das microbacias e comprimentos da drenagem; STRAHLER e STREAM_ID preservados. Nomes das ramas preservados de Name e do perímetro de nome_area. Estatísticas numéricas das ramas tipadas sem recalcular valores. Remoção de Z somente para renderização drapeada; datum vertical não informado, sem alegação de transformação altimétrica ou precisão cadastral.
+- **Autorização:** responsável, pedido “bora configurar os geojson”. Sem commit, push ou deploy.
+- **Validação:** verificadas contagens, tipos de geometria, referência por feição, ordem de Strahler e hashes dos mestres antes/depois. Testes da aplicação e conferência visual relatados na entrega. Para desfazer, retirar somente as cinco entradas de vetores e suas cópias/registro de proveniência, preservando as alterações anteriores do Maue.
