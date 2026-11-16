@@ -6,9 +6,9 @@ const reliefBounds: GeographicBounds = [-45, -23.2413462, -43.5937499, -21.94304
 
 const raster = (
   id: string, name: string, kind: ProjectLayerConfig["kind"],
-  bounds: GeographicBounds, minimumLevel: number, maximumLevel: number,
+  bounds: GeographicBounds, minimumLevel: number, maximumLevel: number, panelOrder: number,
 ): ProjectLayerConfig => ({
-  id, name, description: "", kind, defaultVisible: id === "orto",
+  id, name, description: "", kind, defaultVisible: id === "orto", panelOrder,
   ...(id === "decli2" ? {} : { legendMode: "embedded" as const }),
   ...(id === "orto" ? {} : { exclusiveGroup: "derivados" }),
   source: {
@@ -21,7 +21,7 @@ const raster = (
 // Cópias 2D rastreáveis em public/geojson; metadados em docs/maue-geojson-provenance.json.
 const vectorLayers: ProjectLayerConfig[] = [
   {
-    id: "micro-bacias", name: "Microbacias", description: "Microbacias do levantamento fornecido", kind: "vector", defaultVisible: false, panelOrder: 3, opacityControl: true,
+    id: "micro-bacias", name: "Microbacias", description: "Microbacias do levantamento fornecido", kind: "vector", defaultVisible: false, panelOrder: 5, opacityControl: true,
     source: { format: "geojson", url: "/geojson/micro_bacias.geojson", autoZoom: false,
       style: { stroke: "#FFFFFF", strokeWidth: 1.5, fillOpacity: 0.35, clampToGround: true, zIndex: 3,
         classification: { property: "cor", classes: Object.fromEntries(microbasinColors.map((color, index) => [String(index), { fill: color, stroke: color }])) },
@@ -32,13 +32,13 @@ const vectorLayers: ProjectLayerConfig[] = [
         { property: "STREAM_ID", label: "Trecho de referência", format: "integer" } ] } },
   },
   {
-    id: "curvas-3m", name: "Curvas de nível (3 m)", description: "Cotas da fonte; datum vertical não informado", kind: "contours", defaultVisible: false, panelOrder: 4,
+    id: "curvas-3m", name: "Curvas de nível (3 m)", description: "Cotas da fonte; datum vertical não informado", kind: "contours", defaultVisible: false, panelOrder: 3,
     source: { format: "geojson", url: "/geojson/curvas_3m.geojson", autoZoom: false,
       style: { stroke: "#000000", strokeWidth: 1, clampToGround: true, zIndex: 5 },
       popup: { title: "Curva de nível", fields: [{ property: "cota_m", label: "Cota da fonte", decimals: 0, suffix: " m" }] } },
   },
   {
-    id: "rede-drenagem", name: "Rede de drenagem", description: "Ordem de Strahler preservada da fonte", kind: "drainage", defaultVisible: false, panelOrder: 5,
+    id: "rede-drenagem", name: "Drenagem", description: "Ordem de Strahler preservada da fonte", kind: "drainage", defaultVisible: false, panelOrder: 4,
     source: { format: "geojson", url: "/geojson/rede_drenagem.geojson", autoZoom: false,
       style: { stroke: "#00E5FF", strokeWidth: 1, clampToGround: true, zIndex: 10,
         classification: { property: "STRAHLER", classes: {
@@ -84,13 +84,13 @@ export const project: ProjectConfig = {
   initialCamera: { longitude: -44.80225, latitude: -22.03473, height: 10000, heading: 0, pitch: -90, roll: 0 },
   layers: [
     ...templateProject.layers,
-    raster("orto", "Ortofoto", "orthomosaic", [-44.8242188, -22.1059988, -44.6484374, -21.9430455], 11, 20),
-    raster("aspect", "Orientação das vertentes", "aspect", reliefBounds, 8, 17),
-    raster("decli", "Declividade (graus)", "slope", reliefBounds, 8, 17),
+    raster("orto", "Ortomosaico Georreferenciado", "orthomosaic", [-44.8242188, -22.1059988, -44.6484374, -21.9430455], 11, 20, 1),
+    raster("aspect", "Mapa da Orientação das Vertentes", "aspect", reliefBounds, 8, 17, 6),
+    raster("decli", "Mapa da Declividade (graus)", "slope", reliefBounds, 8, 17, 5),
     // Legenda externa a configurar posteriormente; referência IBGE informada pelo responsável, ainda não documentada.
-    raster("decli2", "Declividade (%)", "slope", [-45, -22.5937261, -44.2968749, -21.9430455], 9, 18),
-    raster("mds", "Modelo Digital de Superfície", "dsm", [-45, -22.2687641, -44.6484374, -21.9430455], 10, 19),
-    raster("mdt", "Modelo Digital do Terreno", "dtm", reliefBounds, 8, 17),
+    raster("decli2", "Mapa da Declividade (%)", "slope", [-45, -22.5937261, -44.2968749, -21.9430455], 9, 18, 4),
+    raster("mds", "Modelo Digital da Superfície", "dsm", [-45, -22.2687641, -44.6484374, -21.9430455], 10, 19, 2),
+    raster("mdt", "Modelo Digital do Terreno", "dtm", reliefBounds, 8, 17, 3),
     ...vectorLayers,
   ],
   scenes: [],
