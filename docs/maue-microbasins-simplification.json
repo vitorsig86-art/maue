@@ -1,0 +1,353 @@
+{
+  "date": "2026-11-16",
+  "source": "C:\\Users\\Usuario\\Desktop\\projetos\\maue-webgis\\public\\geojson\\micro_bacias.geojson",
+  "source_sha256": "e3d41b81657106921f0ab1032309c6544a3257146233f871dc1c455fef8acf40",
+  "original_vertices": 161574,
+  "original_bytes": 4173020,
+  "source_crs": "CRS84 longitude/latitude",
+  "processing_crs": "EPSG:32723 WGS84 / UTM 23S",
+  "tool": "Shapely 2.1.2; GEOS 3.14.1; pyproj 3.7.2",
+  "method": "coverage_simplify (Visvalingam-Whyatt, shared edges simplified together); tolerance is algorithm parameter, Hausdorff distance checked independently",
+  "original_adjacency": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      4,
+      14
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      14
+    ],
+    [
+      5,
+      17
+    ],
+    [
+      5,
+      21
+    ],
+    [
+      5,
+      23
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      6,
+      17
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      12,
+      16
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      15,
+      19
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      16,
+      30
+    ],
+    [
+      17,
+      19
+    ],
+    [
+      17,
+      20
+    ],
+    [
+      17,
+      21
+    ],
+    [
+      18,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      22
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      23
+    ],
+    [
+      21,
+      25
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      22,
+      24
+    ],
+    [
+      22,
+      27
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      23,
+      25
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      24,
+      29
+    ],
+    [
+      25,
+      29
+    ],
+    [
+      26,
+      30
+    ],
+    [
+      26,
+      31
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "candidates": [
+    {
+      "tolerance_m": 0.1,
+      "vertices": 95850,
+      "bytes": 3058412,
+      "max_area_change_pct": 0.00206525732346884,
+      "max_hausdorff_m": 0.009733655349720828,
+      "valid": true,
+      "coverage_valid_2cm": true,
+      "adjacency_unchanged": true,
+      "overlap_m2": -1.1641532182693481e-9,
+      "symmetric_difference_m2": 1.2127216214836183,
+      "elapsed_s": 15.451055499957874,
+      "sha256": "857df994f3588b495d19b0a885b98b0971ef02beb1075b83450128fdc216de83",
+      "candidate": "micro_bacias_0_1m.geojson"
+    },
+    {
+      "tolerance_m": 0.25,
+      "vertices": 29007,
+      "bytes": 932984,
+      "max_area_change_pct": 0.08108409008452287,
+      "max_hausdorff_m": 0.3336058758051916,
+      "valid": true,
+      "coverage_valid_2cm": true,
+      "adjacency_unchanged": true,
+      "overlap_m2": 4.423782229423523e-9,
+      "symmetric_difference_m2": 142.3049765479148,
+      "elapsed_s": 5.687592800008133,
+      "sha256": "11b1ba186204eab6d10db3cd9219ac9766f846cfc9450b8a2f1407f2072a7a6c",
+      "candidate": "micro_bacias_0_25m.geojson"
+    },
+    {
+      "tolerance_m": 0.5,
+      "vertices": 7558,
+      "bytes": 247635,
+      "max_area_change_pct": 0.3290216863580388,
+      "max_hausdorff_m": 0.5310919159965455,
+      "valid": true,
+      "coverage_valid_2cm": true,
+      "adjacency_unchanged": true,
+      "overlap_m2": -3.4924596548080444e-10,
+      "symmetric_difference_m2": 425.66007389183636,
+      "elapsed_s": 2.1188827001024038,
+      "sha256": "59961d58b5e5b2d61d0808808fda9deb315367582bcf093d30d90ac0ca4602aa",
+      "candidate": "micro_bacias_0_5m.geojson"
+    },
+    {
+      "tolerance_m": 1,
+      "vertices": 3440,
+      "bytes": 116500,
+      "max_area_change_pct": 0.435799159992361,
+      "max_hausdorff_m": 0.9396340274409392,
+      "valid": true,
+      "coverage_valid_2cm": true,
+      "adjacency_unchanged": true,
+      "overlap_m2": -2.0954757928848267e-9,
+      "symmetric_difference_m2": 586.9607355355739,
+      "elapsed_s": 1.452028299914673,
+      "sha256": "07f545976aacefff679520c1801f17e89b5f92383f925552b908144bc248ed78",
+      "candidate": "micro_bacias_1_0m.geojson"
+    }
+  ],
+  "selected": {
+    "tolerance_m": 0.25,
+    "vertices": 29007,
+    "bytes": 932984,
+    "max_area_change_pct": 0.08108409008452287,
+    "max_hausdorff_m": 0.3336058758051916,
+    "valid": true,
+    "coverage_valid_2cm": true,
+    "adjacency_unchanged": true,
+    "overlap_m2": 4.423782229423523e-9,
+    "symmetric_difference_m2": 142.3049765479148,
+    "elapsed_s": 5.687592800008133,
+    "sha256": "11b1ba186204eab6d10db3cd9219ac9766f846cfc9450b8a2f1407f2072a7a6c",
+    "candidate": "micro_bacias_0_25m.geojson"
+  },
+  "output": "public/geojson/micro_bacias_visual.geojson",
+  "properties_and_ids": "Preserved exactly, including area_ha, perimetro_km, STREAM_ID, source_ref and cor. Popup values are not recomputed.",
+  "scope": "Visualization only. Input is the existing prepared GeoJSON, preserved byte-for-byte. Historical external master path is currently unavailable; original provenance remains in docs/maue-geojson-provenance.json. No external source file modified."
+}

@@ -22,7 +22,7 @@ const raster = (
 const vectorLayers: ProjectLayerConfig[] = [
   {
     id: "micro-bacias", name: "Microbacias", description: "Microbacias do levantamento fornecido", kind: "vector", defaultVisible: false, panelOrder: 5, opacityControl: true,
-    source: { format: "geojson", url: "/geojson/micro_bacias.geojson", autoZoom: false,
+    source: { format: "geojson", url: "/geojson/micro_bacias_visual.geojson", autoZoom: false,
       style: { stroke: "#FFFFFF", strokeWidth: 1.5, fillOpacity: 0.35, clampToGround: true, zIndex: 3,
         classification: { property: "cor", classes: Object.fromEntries(microbasinColors.map((color, index) => [String(index), { fill: color, stroke: color }])) },
         outline: { property: "cor", colors: microbasinColors, width: 1.5 } },
